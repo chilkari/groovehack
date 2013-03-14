@@ -22,14 +22,21 @@ lib64
 pip-log.txt
 
 # Unit test / coverage reports
+dist/
+build/
 .coverage
-.tox
+coverage.xml
 nosetests.xml
 
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
+# Developer/IDE files
+*.swp
+[Bb]uild/
+.idea
+.settings/
 .project
 .pydevproject
+.conflict
+
+# OS Files
+.DS_Store
+Thumbs.db
